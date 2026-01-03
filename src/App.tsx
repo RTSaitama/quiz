@@ -149,14 +149,14 @@ export default function App() {
           onClick={handlePrevious}
           className={styles.prevButton}
         >
-          PREVIOUS
+          Previous
         </button>
         <button 
           disabled={!canContinue}
           onClick={handleNext}
           className={styles.nextButton}
         >
-          {isLastQuestion ? 'FINISH' : 'NEXT'}
+          {isLastQuestion ? 'SUBMIT' : 'Next'}
         </button>
       </div>
     </div>
